@@ -142,11 +142,6 @@ python FinalProject/transformer/train.py
 
 The script selects CUDA when available and otherwise uses the CPU. It trains the model, saves the checkpoint with the best validation RMSE, creates validation plots, and exports checking-set predictions under `FinalProject/transformer/transformer/`. Running it can overwrite the bundled outputs in that directory.
 
-## Authors
-
-**Hanjun Luo · Sylvia Chung Yan Shan · Thiwarin Sudjaipraparat**  
-Electronics and Computer Engineering, Zhejiang University
-
 ## References
 
 - [CS412 Final Project: Load Data Prediction Model](FinalProject/CS412_Final_Report.pdf) - primary source for the study and reported results.
